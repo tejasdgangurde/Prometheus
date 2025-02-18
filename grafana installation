@@ -1,0 +1,5 @@
+sudo yum install -y https://dl.grafana.com/oss/release/grafana-10.0.3-1.x86_64.rpm
+sudo service grafana-server start
+--- yes
+sudo service grafana-server status
+copy public ip and paste on browser with port 3000 publicip:3000
